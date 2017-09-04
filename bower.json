@@ -1,0 +1,22 @@
+{
+  "name": "starterkit--brunch",
+  "description": "Starterkit Brunch",
+  "author": "Thomas",
+  "version": "0.0.1",
+  "license": "",
+  "repository": "",
+  "main": "source/js/main.js",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
