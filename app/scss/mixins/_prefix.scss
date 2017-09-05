@@ -1,0 +1,13 @@
+// prefix()
+// --------
+// Generates vendor-prefixed versions of the supplied property/value.
+//
+// Usage: @include prefix(border-radius, 5px);
+//
+@mixin prefix($name, $value) {
+	-webkit-#{$name}: $value;
+	-moz-#{$name}: $value;
+	-ms-#{$name}: $value;
+	-o-#{$name}: $value;
+	#{$name}: $value;
+}

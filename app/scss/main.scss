@@ -1,7 +1,14 @@
 // main.scss
 // =========
 
-// mixins
+// base files
+@import"./base/base";
+@import"./base/normalize";
 
-// project-specific modules
+// mixins
+@import"./mixins/prefix";
+@import"./mixins/responsive";
+@import"./mixins/transition";
+
+// modules
 @import"./modules/sample";
