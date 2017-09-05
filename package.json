@@ -4,7 +4,10 @@
   "author": "Thomas",
   "version": "0.0.1",
   "license": "",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tbego/starterkit--brunch.git"
+  },
   "main": "app/main.js",
   "directories": {
     "app": "app",
